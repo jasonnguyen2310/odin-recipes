@@ -1,0 +1,63 @@
+
+
+body {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.flex-container {
+    padding: 30px;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card p {
+    width: 500px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 220px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: auto;
+}
+
